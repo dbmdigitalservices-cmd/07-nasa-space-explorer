@@ -9,3 +9,8 @@ You'll get to use your skills to build something that's actually connected to re
 - The provided files include a NASA logo, date inputs, a button, a placeholder for your gallery, and basic layout and styling to help you get started.
 - It also includes built-in logic (in `dateRange.js`) to handle the valid APOD date range—from June 16, 1995 to today. No need to modify it.
 - All your custom JavaScript should go in `script.js`. That's where you'll write the code that fetches data and displays your gallery.
+
+## Deploying with GitHub Pages
+The GitHub Actions workflow in `.github/workflows/deploy.yml` deploys the site to GitHub Pages whenever changes are pushed to `main`. You can also start a deployment manually from the repository's **Actions** tab.
+
+To enable deployment, open the repository's **Settings → Pages** and select **GitHub Actions** as the build and deployment source. After the first successful workflow run, the published site URL appears in the workflow run summary and under **Settings → Pages**.
